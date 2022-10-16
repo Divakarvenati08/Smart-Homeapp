@@ -1,0 +1,37 @@
+.border {
+  /* border: 2px indigo dashed; */
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+.d-table {
+  display: table;
+  margin-top: 20px;
+}
+
+.d-table-cell {
+  display: table-cell;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.tar {
+  text-align: right;
+}
+
+.view-content {
+  align-items: center;
+  margin: 25px;
+  color: white;
+  background: red;
+}
+
+.btn-primary {
+  color: inherit;
+  text-decoration: inherit;
+}

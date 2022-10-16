@@ -1,0 +1,55 @@
+body {
+  font: normal medium/1.4 sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 0.25rem;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+tbody tr:nth-child(odd) {
+  background: #eee;
+}
+
+.button-wrap {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.button {
+  margin: 10px;
+}
+
+.reset {
+  background-color: lightgray;
+  font-size: 12px;
+}
+
+.restart {
+  background-color: rgb(107, 90, 90);
+  font-size: 12px;
+}
+
+.enable {
+  background-color: red;
+  font-size: 12px;
+}
+.wrapper {
+  width: 100%;
+}
+img, .false-image {
+  max-width: 100%;
+  margin: 1em 0;
+}
+img.center, .false-image.center {
+  margin: 1em auto;
+  display: block;
+}
